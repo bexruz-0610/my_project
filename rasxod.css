@@ -1,0 +1,112 @@
+
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background:white;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #ece8b0;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #444;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        input, select {
+            flex: 1 1 180px;
+            padding: 12px;
+            border: 2px solid #d0d0d0;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            flex: 1 1 100px;
+            left: 100px;
+            background: #60e224;
+           
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+    
+        th {
+            background-color: #f0f4ff;
+            color: #0037ff;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        .total-amount {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: right;
+            color: #222;
+        }
+
+        .filter {
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .filter label {
+            font-weight: 600;
+        }
+
+        .filter select {
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .expense-table button {
+            padding: 6px 12px;
+            background-color: #ff4d4f;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .expense-table button:hover {
+            background-color: #aa232a;
+        }
